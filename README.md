@@ -9,18 +9,18 @@
 - **Persistencia de datos** para mantener el estado de los libros.
 - **Manejo de errores** para mejorar la experiencia de usuario.
 
-Esta aplicación está desarrollada en **C++** con integración de **MySQL** para la persistencia de datos. El uso de **Git** nos permite controlar versiones y colaborar eficientemente en el proyecto.
+Esta aplicación está desarrollada en **C++** con integración de **PostgreSQL** para la persistencia de datos. El uso de **Git** nos permite controlar versiones y colaborar eficientemente en el proyecto.
 
 ## Integrantes del equipo
 
 - **Antony Castañón**
-- **[Nombre del segundo integrante]**
-- **[Nombre del tercer integrante]**
+- **Osman Suray**
+- **Darwin Suray**
 
 ## Tecnologías utilizadas
 
 - **Lenguaje de programación:** C++
-- **Base de datos:** MySQL
+- **Base de datos:** PostgreSQL
 - **Control de versiones:** Git, GitHub
 - **IDE:** Visual Studio Code
 
@@ -32,7 +32,7 @@ Para usar esta aplicación, sigue los siguientes pasos:
     ```bash
     git clone https://github.com/cstantony1996/GestorDeBiblioteca.git
     ```
-2. Asegúrate de tener **MySQL** instalado y configurado.
+2. Asegúrate de tener **PostgreSQL** instalado y configurado.
 3. Configura la base de datos en el archivo de configuración (si es necesario).
 4. Compila y ejecuta el proyecto.
 
