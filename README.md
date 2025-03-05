@@ -40,7 +40,4 @@ Para usar esta aplicación, sigue los siguientes pasos:
 
 Si deseas contribuir al proyecto, siéntete libre de hacer un **fork** y enviar un **pull request** con tus mejoras o correcciones. 
 
-## Licencia
-
-Este proyecto está licenciado bajo la [Licencia MIT](LICENSE).
 
