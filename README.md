@@ -2,7 +2,7 @@
 # GestorDeBiblioteca
 
 Este sera nuestro proyecto de Semestre, donde estaremos trabajando para crear un Gestor de Biblioteca, trabajando con C++, git y GitHub.
-=======
+
 # Gestor de Biblioteca
 
 **Gestor de Biblioteca** es una aplicación que tiene como objetivo facilitar la gestión de libros en un centro educativo. El sistema permite realizar las siguientes operaciones:
