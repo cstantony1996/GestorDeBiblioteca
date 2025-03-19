@@ -8,6 +8,8 @@
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
+                "Ingresar_libros.cpp",
+                "Connection.cpp",
                 "${file}",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}.exe",

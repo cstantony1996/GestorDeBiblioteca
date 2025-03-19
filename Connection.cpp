@@ -1,26 +1,23 @@
 #include <iostream>
-#include <libpq-fe.h>
+#include "Connection.h"
 
 using namespace std;
 
-int main()
-{
-    cout << "inicia programa de conexion db." << endl;
+PGconn* conectarDB() {
+    cout << "Inicia conexión a la base de datos. " << endl;
+
     const char *conninfo = "dbname=postgres user=postgres password=Myroot host=localhost port=5432";
     PGconn *conn = PQconnectdb(conninfo);
 
     if (PQstatus(conn) != CONNECTION_OK)
     {
-        cerr << "Error de conexión: " << PQerrorMessage(conn) << endl;
+        cerr << "Error al conectar a la base de datos: " << PQerrorMessage(conn) << endl;
         PQfinish(conn);
-        return 1;
+        return nullptr;
     }
-    else
-    {
-        cout << "Conexión exitosa" << endl;
 
-        PQfinish(conn);
-
-        return 0;
-    }
+    cout << "Conexión exitosa." << endl;
+    return conn;
 }
+
+
