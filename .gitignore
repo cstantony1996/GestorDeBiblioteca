@@ -20,8 +20,3 @@ rad.json
 *.flf
 #Test results file
 TestResults.xml
-
-
-Connection.h
-Connection.exe
-
