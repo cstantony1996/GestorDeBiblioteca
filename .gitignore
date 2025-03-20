@@ -21,7 +21,7 @@ rad.json
 #Test results file
 TestResults.xml
 
-Connection.cpp
+
 Connection.h
 Connection.exe
-Connection.cpp
+
